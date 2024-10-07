@@ -1,0 +1,159 @@
+{
+    "pages": [
+      {
+        "id": 1,
+        "name": "Medical, Surgical and Neonatal ICUs and Peri-operative Medical Unit",
+        "busy_hours": "6AM - 10PM",
+        "info_desk": "On the left-hand side after entering the building",
+        "address": "9MQJ+X65, Bahawal Victoria Hospital, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 2,
+        "name": "Coronory Care Unit, Cardiac Surgery, Cardiac Emergency",
+        "busy_hours": "Evening until late night",
+        "info_desk": "In front of the main door",
+        "contact": "+92 312 6236 757",
+        "address": "Operation Theatre, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 3,
+        "name": "Theater 1-15 (Surgical and Pediatric/Neonatal Surgery)",
+        "busy_hours": "Not busy (pre-planned operations)",
+        "info_desk": "Scheduling takes place in proceeding wards",
+        "address": "9MQH+9RG، BV Hospital, Circular Rd, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 4,
+        "name": "Inpatient Cardiac Care and Telemetry Unit",
+        "busy_hours": "N/A",
+        "info_desk": "On the left side of the main hall",
+        "contact": "+92 321 5845310",
+        "head_of_department": "Dr. Javed Iqbal",
+        "address": "Circular Rd, commercial area Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 5,
+        "name": "General Nephrology Ward, Dialysis Center, Renal Transplant Center, Advanced Nephrology Laboratory",
+        "busy_hours": "Not busy, plan ahead for Lab visits",
+        "info_desk": "+92 62 2884022",
+        "contact": "Dr. Ijaz Latif",
+        "address": "Victoria hospital, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 6,
+        "name": "Pediatric Ward I and II",
+        "busy_hours": "Not very busy",
+        "info_desk": "+92 300 8680238",
+        "contact": "Dr. Shafqat Ali Tabassum",
+        "address": "Victoria hospital, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 7,
+        "name": "Department of Diagnostic Radiology",
+        "busy_hours": "Always busy",
+        "operating_hours": "8AM to 6PM",
+        "info_desk": "Head to ICU in case of emergencies",
+        "address": "Department of Diagnostic Radiology, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 8,
+        "name": "MS Office BVH",
+        "busy_hours": "Usually not busy",
+        "info_desk": "For Medical Students' training certificates",
+        "address": "MS Office BVH, Circular Rd, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 9,
+        "name": "Surgical Ward I and II",
+        "busy_hours": "Beds always available",
+        "info_desk": "+92 302 3751142",
+        "contact": "Dr. Munawar Jamil",
+        "address": "Surgical Ward, Circular Rd, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 10,
+        "name": "Orthopedic Complex",
+        "busy_hours": "Beds usually available",
+        "info_desk": "+92 311 1222398",
+        "contact": "Dr. Zulifqar Ali",
+        "address": "9MRM+79W, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 11,
+        "name": "Neurosurgery and Neurology",
+        "busy_hours": "Beds always available",
+        "info_desk": "+92 300 9683292",
+        "contact": "Dr. Shahid Samejha",
+        "address": "9MRM+79W, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 12,
+        "name": "Medical Wards I-IV",
+        "busy_hours": "Beds almost always available",
+        "head_of_department": "Dr. Akram Ehsan",
+        "chairman": "Dr. Ali Imran MD",
+        "info_desk": "+92 322 6530325",
+        "address": "9MQM+QWC, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 13,
+        "name": "Dermatology and Plastic Surgery",
+        "busy_hours": "Least busy",
+        "info_desk": "+92 300 9689608",
+        "contact": "Dr. Naima Niaz",
+        "address": "Dermatology and Plastic Surgery Ward, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 14,
+        "name": "Ophthalmology Building",
+        "busy_hours": "Free outpatient clinic busy in the morning",
+        "info_desk": "+92 300 9682939",
+        "contact": "Dr. Sophia Farukh",
+        "address": "9MQJ+QQ4, BVH, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 15,
+        "name": "Thalassemia Center, Advanced Hematology Center, Transfusion Center, and Blood Bank",
+        "busy_hours": "Not crowded",
+        "info_desk": "+92 303 0177932",
+        "contact": "Dr Asma Shaukat",
+        "address": "Lane No 10, Muhammadia Colony, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 16,
+        "name": "Pathology Lab",
+        "busy_hours": "Very busy in the morning",
+        "info_desk": "+92 303 0177932",
+        "contact": "Dr. Asma Shaukat",
+        "address": "9MQH+C8Q, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 17,
+        "name": "CPC Lecture Hall",
+        "info_desk": "Reserved for events and occasions",
+        "address": "9MQH+C8Q, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 18,
+        "name": "Building Compartment I & II",
+        "availability": "Compartment I available 24 hours, Compartment II during Medical School timings",
+        "address": "9MQH+69V, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "id": 19,
+        "name": "General Psychiatry Ward, Addiction Control Center, Behavioral Sciences Department",
+        "busy_hours": "Not busy",
+        "info_desk": "+92 300 9689608",
+        "contact": "Dr. Niaz Maqsood",
+        "address": "Operation Theatre, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      },
+      {
+        "name": "Gynae & Obs Wards",
+        "busy_hours": "Beds usually available",
+        "info_desk": "+92 321 6804470",
+        "contact": "Dr. Shakeela Yasmin",
+        "address": "Gynae & Obs Wards, Bahawalpur Cantt, Bahawalpur, Punjab 63100, Pakistan"
+      }
+    ]
+  }
+  
