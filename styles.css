@@ -3,34 +3,62 @@ body, html {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
 }
 
 body {
-    font-family: Arial, sans-serif;
     background: url('images/bg/main_page_bg.jpeg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    background-color: #333; /* Dark background for header */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .container {
     text-align: center;
     padding: 50px;
     color: white;
-    flex: 1; /* Ensures the container grows to take up available space */
+    flex: 1;
     box-sizing: border-box;
     position: relative;
     z-index: 1; /* Ensure it is above the overlay */
+    margin-top: 60px; /* Adjust for fixed header */
 }
 
 h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    color: #f8f9fa;
 }
 
 h2 {
     font-size: 24px;
     margin-bottom: 50px;
+    color: #f8f9fa;
 }
 
 .dropdown-container {
@@ -56,15 +84,21 @@ h2 {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.dropbtn:hover {
+    background-color: #45a049;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    max-height: 200px; /* Set a maximum height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 200px;
+    overflow-y: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .dropdown-content a {
@@ -80,14 +114,15 @@ h2 {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    opacity: 1;
 }
 
 .dropdown-box {
-    border: 1px solid #ccc; /* Border for the box */
-    padding: 20px; /* Padding inside the box */
-    background-color: #fff; /* Background color for the box */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-btn {
@@ -108,16 +143,21 @@ h2 {
 
 footer {
     width: 100%;
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #333;
     text-align: center;
     font-size: 14px;
-    color: #333;
-    border-top: 1px solid #ddd; /* Optional border for separation */
-    padding: 20px; /* Increased padding to accommodate button */
+    color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 20px;
     box-sizing: border-box;
-    margin-top: auto; /* Pushes the footer to the bottom if there is extra space */
+    margin-top: auto;
     position: relative;
-    z-index: 1; /* Ensure it is above the overlay */
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #444;
 }
 
 .overlay {
@@ -126,9 +166,9 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-    pointer-events: none; /* Ensures the overlay doesn't interfere with interactions */
+    pointer-events: none;
 }
 
 .background-overlay {
@@ -137,8 +177,8 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
-    z-index: 0; /* Ensure it is behind other content */
-    pointer-events: none; /* Ensure it doesn't interfere with interactions */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    pointer-events: none;
 }
 

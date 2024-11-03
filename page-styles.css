@@ -3,7 +3,14 @@ html, body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-size: cover;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .overlay {
@@ -24,6 +31,7 @@ html, body {
     color: white;
     padding-top: 100px;
     padding-bottom: 150px;
+    flex: 1;
 }
 
 h1 {
@@ -45,10 +53,14 @@ p {
 }
 
 header {
+    width: 100%;
     background-color: #333;
     color: white;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
@@ -60,4 +72,33 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    font-size: 14px;
+    color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #45a049;
 }

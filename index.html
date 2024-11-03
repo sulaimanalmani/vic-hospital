@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Victoria Hospital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html"><strong>Home</strong></a>
+        </nav>
+    </header>
     <div class="background-overlay"></div>
     <div class="container">
-
         <h1>The Victoria Hospital</h1>
         <h2>Quaid-e-Azam Medical College</h2>
-
         <div class="dropdown-container">
             <div class="dropdown">
                 <button class="dropbtn">Heads and Chair of Departments</button>
@@ -21,14 +25,12 @@
                     <!-- Items populated here by JS -->
                 </div>
             </div>
-            
             <div class="dropdown">
                 <button class="dropbtn">Departments</button>
                 <div class="dropdown-content" id="departments-menu">
                     <!-- Items populated here by JS -->
                 </div>
             </div>
-
             <div class="dropdown">
                 <button class="dropbtn">Locations</button>
                 <div class="dropdown-content" id="locations-menu">
@@ -37,12 +39,10 @@
             </div>
         </div>
     </div>
-
     <footer>
         <p>Download the application to get access to GPS Tracking, myCharts, and Billing Information</p>
         <button class="contact-btn" onclick="window.location.href='mailto:Yousuf.Muhammad@Mayo.edu'">Contact Us</button>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

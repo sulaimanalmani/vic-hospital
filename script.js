@@ -11,6 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch('data/locations_pages.json')
         .then(response => response.json())
         .then(data => populateDropdown('locations-menu', data));
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
 });
 
 // Populate dropdowns with items and add data-page-id attributes
