@@ -19,6 +19,8 @@ body {
     color: white;
     flex: 1; /* Ensures the container grows to take up available space */
     box-sizing: border-box;
+    position: relative;
+    z-index: 1; /* Ensure it is above the overlay */
 }
 
 h1 {
@@ -114,5 +116,29 @@ footer {
     padding: 20px; /* Increased padding to accommodate button */
     box-sizing: border-box;
     margin-top: auto; /* Pushes the footer to the bottom if there is extra space */
+    position: relative;
+    z-index: 1; /* Ensure it is above the overlay */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 1;
+    pointer-events: none; /* Ensures the overlay doesn't interfere with interactions */
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 0; /* Ensure it is behind other content */
+    pointer-events: none; /* Ensure it doesn't interfere with interactions */
 }
 
