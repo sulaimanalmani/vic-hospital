@@ -17,6 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     
                     // Set the background image based on pageId
                     document.body.style.backgroundImage = `url('images/bg/page${pageId}.jpeg')`;
+
+                    // Add a map/image to the page
+                    const mapImage = document.createElement('img');
+                    mapImage.src = `images/maps/page${pageId}.png`;
+                    mapImage.alt = `Map for page ${pageId}`;
+                    mapImage.classList.add('map-image');
+                    document.body.appendChild(mapImage);
                 }
             });
     }
