@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     mapImage.src = `images/maps/page${pageId}.png`;
                     mapImage.alt = `Map for page ${pageId}`;
                     mapImage.classList.add('map-image');
-                    document.body.appendChild(mapImage);
+                    document.querySelector('.container').appendChild(mapImage);
                 }
             });
     }
